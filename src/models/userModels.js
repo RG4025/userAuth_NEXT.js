@@ -29,5 +29,5 @@ const userSchema = new moongoose.Schema({
   verifyTokenExpiry: Date,
 });
 
-const user = moongoose.model.users || mongoose.model("users", userSchema);
-export default user;
+const User = moongoose.model.users || mongoose.model("users", userSchema);
+export default User;

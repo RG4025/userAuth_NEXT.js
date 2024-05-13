@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function page() {
   return (
-    <div>page</div>
-  )
+    <>
+      <div className="">
+        <h2>this is the signup page</h2>
+      </div>
+    </>
+  );
 }
 
-export default page
+export default page;
